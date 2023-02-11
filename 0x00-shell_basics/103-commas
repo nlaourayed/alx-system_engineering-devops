@@ -1,3 +1,3 @@
 #!/bin/bash
-ls -mXv
+ls -mXFv
 echo $'\n'
