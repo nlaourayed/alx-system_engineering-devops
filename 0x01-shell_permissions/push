@@ -4,7 +4,8 @@ git add .
 if [ -n $1 ]
 then
 MSG=$1
-echo "xx"
+echo :: $1 ::
+echo :: $0 ::
 fi
 git commit -m $MSG
 echo $MSG
