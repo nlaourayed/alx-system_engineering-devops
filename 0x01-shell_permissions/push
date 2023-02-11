@@ -2,10 +2,12 @@
 MSG="ss"
 git add .
 if [ -n $1 ]
-then
-echo $MSG
-MSG=$1
+	then
+		MSG=$1
+		echo :: $MSG ::
+	else 
+		MSG="xx"
+		echo $MSG ss
 fi
 git commit -m $MSG
-echo $MSG
 git push
