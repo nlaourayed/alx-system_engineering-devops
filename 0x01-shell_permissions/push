@@ -1,5 +1,10 @@
 #!/bin/bash
+MSG="ss"
 git add .
-git commit -m $1
-echo $0
+if [ -n $1 ]
+then
+MSG=$1
+fi
+git commit -m $MSG
+echo $MSG
 git push
