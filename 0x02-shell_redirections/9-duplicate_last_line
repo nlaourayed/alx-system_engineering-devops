@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n1 tstfile >> tstfile
+tail -n1 iacta >> iacta
